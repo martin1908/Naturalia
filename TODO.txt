@@ -1,0 +1,2 @@
+- Agregar Fuente Myriad a todo el body
+- Cambiar productos del index a un row con col-4
