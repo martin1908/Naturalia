@@ -40,7 +40,7 @@ Body copy:    14px/26px normal 'Open Sans', sans-serif;
 -------------------------------------------------------------------*/
 
 /* ------------------------------------------------------------------------------   1. GENERAL    ------------------------------------------------------------------------------------ */
-
+@import url(style.css)
 body {background:#fff;overflow-x:hidden;position: relative;}
 #body-wrap {width: 100vw;overflow-x:hidden;}
 #preloader  {position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: #fefefe;z-index: 1000000;height: 100%;}
@@ -50,10 +50,10 @@ input {outline: none;}
 a {color: #7db120}
 a:hover {text-decoration: none;}
 h1.title {color: #7db120;font:700 48px/72px "Montserrat",sans-serif;text-transform:uppercase;margin-top: 0;font-weight: bold;text-align: center;margin-bottom: 0px}
-h2.subtitle {text-align: center;padding: 0 30px;font-family: 'Caveat';font-size: 40px;color: #7db120;;margin: 0;margin-bottom: 20px;}
+h2.subtitle {text-align: center;padding: 0 30px;font-size: 40px;color: #7db120;;margin: 0;margin-bottom: 20px;}
 h2.subtitle.white {color: #7db120;}
 p {color: #8e8e8e;font: 14px/26px normal 'Open Sans', sans-serif;}
-button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db120;color: #fff;padding: 20px 60px;font-size: 17px;vertical-align: middle;align-items: center;}
+button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db120;color: #fff;padding: 20px 60px;font-size: 17px;font: 700 20px/72px "Montserrat",sans-serif;align-items: center;}
 .button:visited, .button:hover, .button:active {text-decoration: none;color: #fff}
 
 /* ------------------------------------------------------------------------------ 2. MEDIA QUERIES ------------------------------------------------------------------------------ */
@@ -79,7 +79,7 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 
 /* md */
 @media screen and (min-width: 992px) {
-  h1.title {font:700 48px/72px "Montserrat"}
+  h1.title {font: 600 45px/72px "Montserrat"}
   #intro .description .desc-inner h3 {font-size: 70px}
   #gallery {padding: 40px 0px;}
   #gallery #Container .mix {width: 12.5%;}
@@ -122,8 +122,8 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 #intro .arrow-wrap img {border: #f5f5f5 2px solid; width: 90px;padding: 32px 30px 32px 30px;margin-top: 55px;background: rgba(255, 255, 255, 0.14);opacity: 0.7;border-radius: 100%;}
 #intro .description {position: absolute;bottom: 0;width: 100%;text-align: center;height: 100vh;display: table;background: rgba(0,0,0,0.3)}
 #intro .description .desc-inner {display: table-cell;vertical-align: middle;width: 100%;text-align: center;background:rgba(67, 0, 95, 0.62);}
-#intro .description .desc-inner h3 {font-family: "Montserrat";color: #f5f5f5;font-weight: 700;padding: 0 30px}
-#intro .description .desc-inner p {color: #fff;padding: 0 30px;font-size: 40px;line-height:44px;font-weight: 100;font-family: "Caveat";margin-top: 32px;}
+#intro .description .desc-inner h3 {font-family: "Montserrat";color: #f5f5f5;font-weight: 500;padding: 0 30px}
+#intro .description .desc-inner p {color: #fff;padding: 0 30px;font-size: 25px;line-height:44px;font-weight: 100;margin-top: -30px;}
 #intro .word {display: inline-block;}
 
 
@@ -157,8 +157,22 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 #services .services .service.gray {background: #f5f5f5}
 #services .service p {color: rgba(255, 255, 255, 0.88);font-family: 'Open Sans', sans-serif;line-height: 22px;font-size: 14px;}
 #services .services .service.green h3 {color: #fff}
-#services .service:nth-of-type(odd) {background: #476f33}
-#services .service:nth-of-type(even) {background:  #91c97d;}
+#services .service:nth-of-type(odd) {background:  #91c97d;}
+#services .service:nth-of-type(even) {background:  #476f33}
+/*---------------------------------------------------------*/
+
+#services .services .break {margin-bottom: 15px}
+#services .services h3 {color: #fff;font: 700 22px/26px "Montserrat",sans-serif;text-transform: uppercase;margin-top: 0;font-weight: bold;text-align: center;}
+#services .services .service1 {padding: 25px;margin:133px 20px 20px 20px;padding-top: 124px;text-align: center;}
+#services .services .service1 img {border-radius: 100%;border:12px solid #7db120;display: inline;margin-top: -244px;margin-bottom: 31px;}
+#services .services .service1.even img {border: 12px solid #cbe6c4;}
+#services .services .service1.green {background: rgb(203, 230, 196)}
+#services .services .service1.gray {background: #f5f5f5}
+#services .service1 p {color: rgba(255, 255, 255, 0.88);font-family: 'Open Sans', sans-serif;line-height: 22px;font-size: 14px;}
+#services .services .service1.green h3 {color: #fff}
+#services .service1:nth-of-type(odd) {background:  #476f33;}
+#services .service1:nth-of-type(even) {background:  #91c97d;}
+
 
 
 /* ------------------------------------------------------------------------------   8. PRICES ------------------------------------------------------------------------------  */
@@ -317,8 +331,20 @@ footer .copyright-col.col-md-4, footer .social-col.col-md-4, footer .copyright-c
 
 /*-----------------------------------------*/
 footer {background: #7db120;color: #fff;padding-top: 0px;padding-bottom: 0px;}
-footer h2 {font-family: "Montserrat";font-weight: 700;font-size: 16px;color: rgb(186, 223, 178);text-transform: uppercase;}
+footer h2 {font-family: "Montserrat";font-weight: 700;font-size: 16px;color: #f5f5f5;;text-transform: uppercase;}
 footer p {color: rgba(255, 255, 255, 0.7)}
 footer a {color: #4a8237; background-color: #7db120;}
-footer i {margin-right: 10px}
+footer i {margin-right: 20px}
 footer .copyright-col.col-md-3, footer .social-col.col-md-3, footer .copyright-col.col-sm-3, footer .social-col.col-sm-3 {padding-top: 42px}
+.sociales {
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+
+
+}
+
+.sociales a{
+  color: #ccc;
+  text-decoration: none;
+}

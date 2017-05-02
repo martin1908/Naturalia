@@ -57,7 +57,7 @@
     top: 0;
     left: 0;
 
-    display: block;
+    display: table-row-group;
 }
 .slick-track:before,
 .slick-track:after

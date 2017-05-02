@@ -46,11 +46,11 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.circle .img img {
-      border-radius: 50%;
+   
     margin-top: -312px;
     width: 270px;
     height: 270px;
-    margin-left: 10px;
+   
 }
 .ih-item.circle .info {
   position: absolute;
@@ -59,7 +59,7 @@
   left: 0;
   right: 0;
   text-align: center;
-  border-radius: 50%;
+  
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -83,15 +83,7 @@
 }
 
 .ih-item.circle.effect1 .spinner {
-  width: 230px;
-  height: 230px;
-  border: 10px solid #ecab18;
-  border-right-color: #1ad280;
-  border-bottom-color: #1ad280;
-  border-radius: 50%;
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  
 }
 .ih-item.circle.effect1 .img {
 
