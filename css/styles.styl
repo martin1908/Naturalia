@@ -1,6 +1,6 @@
 // GENERALES
 #bs-example-navbar-collapse-1
-  text-align: righ
+  text-align: right
   font-family:Helvetica,Futura,Arial,Verdana,sans-serif
 .navbar-nav 
   li a 
@@ -100,3 +100,50 @@
       margin-top: 40px
       padding: 10px 20px
       border-radius: 0px
+
+// PRODUCTOS
+.productos-sc1
+  margin-top: 25px
+.productos-sc1-text
+  position: relative;
+  z-index: 100
+  top: 25px
+  
+  background: rgba(0,255,0, 0.72);
+  color: #000;
+  // visibility: hidden;
+  // opacity: 0;
+.productos-sc1-categoria
+  text-align: center
+// .producto-sc1-imagen
+//   z-index: 0
+//   position: absolute
+//   text-align:center
+//   width: 100%
+//   max-width: 100%
+.productos-sc1-categoria:hover .productos-sc1-text
+  visibility: visible
+  opacity: 1
+  
+
+.productos-sc1-categoria
+  height: 250px
+  background: blue
+  border: 20px solid white
+.productos-sc1-hover
+  z-index:100
+  position: relative
+  top: -20px !important
+  text-align: center
+  background: rgba(0,255,0, 0.72);
+  width: 100%
+  height: 100%
+  transform: 1s
+  opacity: 0
+  visibility: hidden
+.productos-sc1-prehover
+  overflow: hidden
+  .productos-sc1-imagen
+    max-height: 100%
+    min-width: 100%
+    // NOTA: Aumentar Overflow hidden
