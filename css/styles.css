@@ -40,6 +40,9 @@
   font-weight: bolder !important;
   font-size: 1.25em !important;
 }
+#productos {
+  font-size: 0px;
+}
 .nosotros-sc1-subheader {
   font-size: 1.25em !important;
   margin-top: 0.25em !important;
@@ -148,4 +151,23 @@
 .productos-sc1-prehover .productos-sc1-imagen {
   max-height: 100%;
   min-width: 100%;
+}
+.producto-sc2-img img {
+  width: 100%;
+  max-width: 100%;
+}
+.producto-sc2-descripcion {
+  padding-left: 2.5vw;
+}
+.producto-sc2-descripcion .producto-sc2-title h3 {
+  color: #5db200;
+  font-size: 2em;
+}
+.producto-sc2-descripcion .producto-sc2-nutricional {
+  margin-top: 15px;
+}
+.producto-sc2-descripcion .producto-sc2-btn {
+  background: #5cb400 !important;
+  border-radius: 15px !important;
+  margin-top: 25px;
 }
