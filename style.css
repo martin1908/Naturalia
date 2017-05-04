@@ -257,7 +257,7 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 /* ------------------------------------------------------------------------------   12. BLOG ------------------------------------------------------------------------------ */
 
 #blog {background: #fff;padding: 50px 0}
-#blog h3 {color: #fff;font: 700 22px/26px "Montserrat",sans-serif;text-transform: uppercase;margin-top: 13px;font-weight: bold;}
+#blog h3 {color: #fff;font: 700 22px/26px "Montserrat",sans-serif;text-transform: uppercase;font-weight: bold;}
 #blog .blog-item-inner {padding: 17px}
 #blog .blog-item-inner {transition: all .2s ease-in-out;}
 #blog .blog-item-inner:hover {transform: scale(1.13);cursor: pointer;}
@@ -267,8 +267,8 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 #blog .blog .date span:first-of-type {display: block;text-align: center;line-height: 20px;}
 #blog .blog .date span:nth-of-type(2) {display: block;text-align: center;line-height: 23px;text-transform: uppercase;}
 #blog .blog .blog-item-inner {margin-bottom: 30px;position: relative;}
-#blog .blog .blog-col:nth-of-type(odd) .blog-item-inner  {background: #198221}
-#blog .blog .blog-col:nth-of-type(even) .blog-item-inner {background: #198221}
+#blog .blog .blog-col:nth-of-type(odd) .blog-item-inner  {background: #198221 ; border:#fff  10px solid;}
+#blog .blog .blog-col:nth-of-type(even) .blog-item-inner {background: #198221; border:#fff  10px solid;}
 #blog .blog .blog-col:nth-of-type(odd) .blog-item-inner h3 {color: #fff}
 
 
