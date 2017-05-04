@@ -10,8 +10,8 @@ h1.title {color: #7db120;font:700 48px/72px "Montserrat",sans-serif;text-transfo
 h2.subtitle {text-align: center;padding: 0 30px;font-family: 'Caveat';font-size: 40px;color: #7db120;;margin: 0;margin-bottom: 20px;}
 h2.subtitle.white {color: #7db120;}
 p {color: #8e8e8e;font: 14px/26px normal 'Open Sans', sans-serif;}
-button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db120;color: #fff;padding: 20px 60px;font-size: 17px;vertical-align: middle;align-items: center;}
-.button:visited, .button:hover, .button:active {text-decoration: none;color: #fff}
+button, .button {background: #fff;;border-radius: 20px;border: 1px solid #fff;;color: ;padding: 10px 30px;font-size: 17px;vertical-align: middle;align-items: center;}
+.button:visited, .button:hover, .button:active {text-decoration: none;color: #7db120}
 
 /* ------------------------------------------------------------------------------ 2. MEDIA QUERIES ------------------------------------------------------------------------------ */
 
