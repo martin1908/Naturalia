@@ -67,7 +67,7 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 .navbar-default {background: #fff;position: fixed;border-radius: 0;border:none;z-index: 10000;width: 100%;}
 .navbar-default .navbar-nav>li>a {color: #363636;font-size: 16px;text-transform: uppercase;}
 .navbar-default.transparent {background:#fff;}
-.navbar-default.transparent .navbar-nav>li>a {color: #848484;font-size: 20px;text-transform: uppercase; font-weight: bold;border: #ffffff solid 10px;}
+.navbar-default.transparent .navbar-nav>li>a {color: #848484;font-size: 20px;text-transform: uppercase; font-weight: bold;border: #ffffff solid 10px;margin-right: 50px;}
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {margin-right: 0;margin-left: 0}
 .navbar-brand {padding: 0}
 .navbar-toggle {margin: 12px 0 12px 0;}
