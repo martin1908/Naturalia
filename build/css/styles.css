@@ -1,5 +1,5 @@
 #bs-example-navbar-collapse-1 {
-  text-align: right;
+  text-align: center;
   font-family: Helvetica, Futura, Arial, Verdana, sans-serif;
 }
 .navbar-nav li a {
@@ -32,6 +32,7 @@
   padding: 5px 0px;
   background: #7db120 !important;
   text-align: center !important;
+  margin-top: 100px;
 }
 .index-sc4-redes .index-sc4-text {
   text-align: center !important;
@@ -51,8 +52,9 @@
   margin-top: 0.25em !important;
 }
 .nosotros-sc2-logo {
-  min-width: 20vw;
-  max-width: 40vw;
+  min-width: 10vw;
+  max-width: 10vw;
+  margin-top: 120px;
 }
 .nosotros-sc2-presentacion p {
   line-height: 20px !important;
@@ -97,6 +99,9 @@
 .noticia-sc2 {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.noticia-sc2-img{
+  margin-top: 85px;
 }
 .noticia-sc2-post {
   text-align: center;
