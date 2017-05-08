@@ -40,7 +40,7 @@ Body copy:    14px/26px normal 'Open Sans', sans-serif;
 -------------------------------------------------------------------*/
 
 /* ------------------------------------------------------------------------------   1. GENERAL    ------------------------------------------------------------------------------------ */
-@import url(style.css)
+
 body {background:#fff;overflow-x:hidden;position: relative;}
 #body-wrap {width: 100vw;overflow-x:hidden;}
 #preloader  {position: absolute;top: 0;left: 0;right: 0;bottom: 0;background-color: #fefefe;z-index: 1000000;height: 100%;}
