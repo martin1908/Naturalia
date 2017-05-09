@@ -271,6 +271,6 @@ footer .copyright-col.col-md-4, footer .social-col.col-md-4, footer .copyright-c
 footer {background: #7db120;color: #fff;padding-top: 0px;padding-bottom: 0px;}
 footer h2 {font-family: "Montserrat";font-weight: 700;font-size: 16px;color: rgb(186, 223, 178);text-transform: uppercase;}
 footer p {color: #f5f5f5;}
-footer a {color: #4a8237; background-color: #fff}
+footer a {color: #4a8237; }
 footer i {margin-right: 10px}
 footer .copyright-col.col-md-3, footer .social-col.col-md-3, footer .copyright-col.col-sm-3, footer .social-col.col-sm-3 {padding-top: 42px}

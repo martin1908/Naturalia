@@ -276,7 +276,7 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 
 footer {background: #7db120;color: #fff;padding-top: 0px;padding-bottom: 0px;}
 footer h2 {font-family: "Montserrat";font-weight: 700;font-size: 16px;color: rgb(186, 223, 178);text-transform: uppercase;}
-footer p {color: rgba(255, 255, 255, 0.7)}
+footer p {color: #fff}
 footer a {color: #4a8237;}
 footer i {margin-right: 10px}
 footer .copyright-col.col-md-4, footer .social-col.col-md-4, footer .copyright-col.col-sm-4, footer .social-col.col-sm-4 {padding-top: 42px}
@@ -285,7 +285,7 @@ footer .copyright-col.col-md-4, footer .social-col.col-md-4, footer .copyright-c
 /*-----------------------------------------*/
 footer {background: #7db120;color: #fff;padding-top: 0px;padding-bottom: 0px;}
 footer h2 {font-family: "Montserrat";font-weight: 700;font-size: 16px;color: #f5f5f5;text-transform: uppercase;}
-footer p {color: rgba(255, 255, 255, 0.7)}
-footer a {color: #4a8237; background-color: #fff}
+footer p {color: #fff;}
+footer a {color: #4a8237;}
 footer i {margin-right: 10px}
 footer .copyright-col.col-md-3, footer .social-col.col-md-3, footer .copyright-col.col-sm-3, footer .social-col.col-sm-3 {padding-top: 42px}

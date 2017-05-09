@@ -46,6 +46,12 @@
   font-weight: bolder !important;
   font-size: 1.25em !important;
 }
+.footer img {
+  height: 40px !important;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+
+}
 .nosotros-sc1-subheader {
   font-size: 3.25em !important;
   margin-top: 0.25em !important;
