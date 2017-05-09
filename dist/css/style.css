@@ -64,7 +64,7 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
   .description .desc-inner h3 {font-size: 60px;text-align: center;}
   #gallery #Container .mix {width: 50%;}
   #gallery #Container .mix div  {width: 50%;height: 50%;}
-  .navbar-brand img {height: 55px;padding: 8px 0 10px 0}
+  .navbar-brand img {height: 55px;padding: 8px 0 10px 0;margin-left: 40px;}
 }
 
 /* sm */
@@ -102,12 +102,12 @@ button, .button {background: #7db120;border-radius: 20px;border: 1px solid #7db1
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {color: #7db120;background-color:rgba(255, 255, 255, 0.12)}
 .navbar-fixed-top {border: none;}
-.navbar .navbar-nav {display:-webkit-inline-box ;float: right;vertical-align: top;padding: 30px 0 20px 0;margin-right: 200px;}
+.navbar .navbar-nav {display:-webkit-inline-box ;float: right;vertical-align: top;padding: 30px 0 20px 0;margin-right: -30px;}
 .navbar .navbar-collapse {tex    display: inline-flex;t-align: center;}
 /*.navbar-collapse.collapse.in a {color: #90cc82}*/
 .navbar-collapse.collapse.in .navbar-nav>li>a {color: #7db120}
 .navbar-brand {float:none;}
-.navbar-default {background: #fff;position: fixed;border-radius: 0;border:none;z-index: 10000;width: 109%; margin-left: -90px;}
+.navbar-default {background: #fff;position: fixed;border-radius: 0;border:none;z-index: 10000;width: 109%; margin-left: -50px;margin-right: 20px;}
 .navbar-default .navbar-nav>li>a {color: #363636;font-size: 16px;text-transform: uppercase;}
 .navbar-default.transparent {background:#fff;}
 .navbar-default.transparent .navbar-nav>li>a {color: #848484;font-size: 20px;text-transform: uppercase; font-weight: bold;border: #ffffff solid 10px;}

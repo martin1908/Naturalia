@@ -10,7 +10,7 @@
   color: #7db120 !important;
 }
 .navbar {
-  max-height: 100px !important;
+  max-height: 120px !important;
 }
 .actives {
   border: #fff solid 15px;
@@ -48,8 +48,8 @@
 }
 .footer img {
   height: 40px !important;
-  margin-right: 50px !important;
-  margin-left: 50px !important;
+  margin-right: 45px !important;
+  margin-left: 45px !important;
 
 }
 .nosotros-sc1-subheader {
