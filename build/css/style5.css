@@ -76,9 +76,9 @@ button, .button {background: #fff;;border-radius: 20px;border: 1px solid #fff;;c
 
 #intro {height: 100vh;overflow: hidden;position: relative;}
 #intro .zoom-img {height: 100%}
-#intro .arrow-wrap img {border: #f5f5f5 2px solid; width: 90px;padding: 32px 30px 32px 30px;margin-top: 55px;background: rgba(255, 255, 255, 0.14);opacity: 0.7;border-radius: 100%;}
-#intro .description {position: absolute;bottom: 0;width: 100%;text-align: center;height: 100vh;display: table;background: rgba(0,0,0,0.3)}
-#intro .description .desc-inner {display: table-cell;vertical-align: middle;width: 100%;text-align: center;background:rgba(149, 212, 36, 0.91);}
+#intro .arrow-wrap img {border: #f5f5f5 2px solid; width: 90px;padding: 32px 30px 32px 30px;margin-top: 55px;/*background: rgba(255, 255, 255, 0.14);*/opacity: 0.7;border-radius: 100%;}
+#intro .description {position: absolute;bottom: 0;width: 100%;text-align: center;height: 100vh;display: table;/*background: rgba(0,0,0,0.3)*/}
+#intro .description .desc-inner {display: table-cell;vertical-align: middle;width: 100%;text-align: center;/*background:rgba(149, 212, 36, 0.91);*/}
 #intro .description .desc-inner h3 {font-family: "Montserrat";color: #fff;font-weight: 600;padding: 0 30px}
 #intro .description .desc-inner p {color: #fff;padding: 0 30px;font-size: 25px;line-height:44px;font-weight: 100;margin-top: -20px;}
 #intro .word {display: inline-block;}
