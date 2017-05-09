@@ -169,11 +169,12 @@ $(document).ready(function(){
   });
 
   var serviceSlick = $('.service-slider').slick({
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 300,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    draggable: false,
+    slidesToScroll: 1,
     arrows:false,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -183,23 +184,27 @@ $(document).ready(function(){
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
       }
     }
 
